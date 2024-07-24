@@ -29,7 +29,7 @@ router.get('/', function (req, res, next) {
       image: "https://cdn.dxomark.com/wp-content/uploads/medias/post-147160/Huawei-P60-Pro_featured-image-packshot-review-Recovered.jpg"
     }
   ]
-  res.render('index', { products, admin: falses });
+  res.render('index', { products });
 });
 
 module.exports = router;
